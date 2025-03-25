@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODUnityResonanceEditor", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODUnityEditor", "FMODUnityEditor.csproj", "{18a88012-6863-cb43-c2ea-9e18f4078253}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{f151a706-abf5-4035-e0f8-8da782e42150}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODUnity", "FMODUnity.csproj", "{cfe5692a-02f0-6653-2ebe-d6b0a87836e3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODUnityResonance", "FMODUnityResonance.csproj", "{4f2fc517-8735-49c3-9287-eb8a3a7e7f83}"
@@ -18,6 +20,8 @@ Global
 		{444f3a7a-c24f-bcda-9926-c697d80e13a2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18a88012-6863-cb43-c2ea-9e18f4078253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{18a88012-6863-cb43-c2ea-9e18f4078253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f151a706-abf5-4035-e0f8-8da782e42150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f151a706-abf5-4035-e0f8-8da782e42150}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{cfe5692a-02f0-6653-2ebe-d6b0a87836e3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{cfe5692a-02f0-6653-2ebe-d6b0a87836e3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4f2fc517-8735-49c3-9287-eb8a3a7e7f83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
