@@ -59,6 +59,7 @@
     <UnityVersion>6000.0.42f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Users\ELE66df02e6a43c6\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -74,9 +75,21 @@
     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Plugins\Noisy-Nodes-master\Noisy-Nodes-master\NoiseShader\HLSL\SimplexNoise2D.hlsl" />
+    <None Include="Assets\Plugins\Noisy-Nodes-master\Noisy-Nodes-master\NoiseShader\HLSL\NoiseUtils.hlsl" />
     <None Include="Assets\Plugins\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\Plugins\Noisy-Nodes-master\Noisy-Nodes-master\NoiseShader\HLSL\BCCNoise8.hlsl" />
+    <None Include="Assets\Plugins\Noisy-Nodes-master\Noisy-Nodes-master\NoiseShader\HLSL\ClassicNoise2D.hlsl" />
     <None Include="Assets\Plugins\Demigiant\DOTween\DOTween.dll" />
+    <None Include="Assets\Plugins\Noisy-Nodes-master\Noisy-Nodes-master\NoiseShader\HLSL\Voronoi4D.hlsl" />
+    <None Include="Assets\Plugins\Noisy-Nodes-master\Noisy-Nodes-master\NoiseShader\HLSL\Voronoi2D.hlsl" />
+    <None Include="Assets\Plugins\Noisy-Nodes-master\Noisy-Nodes-master\NoiseShader\HLSL\WhiteNoise3D.hlsl" />
+    <None Include="Assets\Plugins\Noisy-Nodes-master\Noisy-Nodes-master\NoiseShader\HLSL\BCCNoise4.hlsl" />
+    <None Include="Assets\Plugins\Noisy-Nodes-master\Noisy-Nodes-master\NoiseShader\HLSL\ClassicNoise3D.hlsl" />
     <None Include="Assets\Plugins\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\Plugins\Noisy-Nodes-master\Noisy-Nodes-master\NoiseShader\HLSL\SimplexNoise3D.hlsl" />
+    <None Include="Assets\Plugins\Noisy-Nodes-master\Noisy-Nodes-master\NoiseShader\HLSL\WhiteNoise2D.hlsl" />
+    <None Include="Assets\Plugins\Noisy-Nodes-master\Noisy-Nodes-master\NoiseShader\HLSL\Voronoi3D.hlsl" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

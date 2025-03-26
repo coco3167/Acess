@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Rond : MonoBehaviour
 {
@@ -7,6 +8,7 @@ public class Rond : MonoBehaviour
     public float targetRot;
     public Rond[] influencedRond;
     private Vector3 startScale;
+    private bool m_isRotating;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -18,14 +20,7 @@ public class Rond : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && selected) // 0 = Left Click
-        {
-            foreach(Rond rond in influencedRond)
-            {
-                rond.targetRot += 45;
-            }
-            
-        }
+        
 
         transform.rotation = Quaternion.Lerp(transform.rotation,Quaternion.Euler(0, 0, targetRot),Time.deltaTime*5);
 
@@ -36,6 +31,14 @@ public class Rond : MonoBehaviour
         else
         {
             transform.localScale = Vector3.Lerp(transform.localScale,startScale,Time.deltaTime*5);
+        }
+    }
+
+    public void Rotate()
+    {
+        foreach(Rond rond in influencedRond)
+        {
+            rond.targetRot += 45;
         }
     }
 }
