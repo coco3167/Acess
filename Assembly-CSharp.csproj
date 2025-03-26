@@ -50,10 +50,11 @@
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Background2.cs" />
     <Compile Include="Assets\Scripts\RondManager.cs" />
-    <Compile Include="Assets\Scripts\PlatformerObstacle.cs" />
-    <Compile Include="Assets\Scripts\PlatformerBackground.cs" />
-    <Compile Include="Assets\Scripts\PlatformerController.cs" />
+    <Compile Include="Assets\Scripts\Platformer\EndLine.cs" />
+    <Compile Include="Assets\Scripts\Platformer\PlatformerObstacle.cs" />
+    <Compile Include="Assets\Scripts\Platformer\PlatformerBackground.cs" />
     <Compile Include="Assets\Scripts\FMODEventsLoader.cs" />
+    <Compile Include="Assets\Scripts\Platformer\PlatformerController.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
