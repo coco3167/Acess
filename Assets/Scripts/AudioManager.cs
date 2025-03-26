@@ -152,6 +152,11 @@ public class Audio_Manager : MonoBehaviour
         InstantiateMusic(FMODEvent_Loader.instance.music);
     }
 
+    public void SetMusicParameter(string parameter, int value)
+    {
+        musicInstance.setParameterByName(parameter, value);
+    }
+
     // Update is called once per frame
     void Update()
     {
