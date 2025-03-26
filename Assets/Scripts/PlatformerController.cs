@@ -12,6 +12,7 @@ public class PlatformerController : MonoBehaviour
     private void Awake()
     {
         m_rigidbody = GetComponent<Rigidbody2D>();
+        DontDestroyOnLoad(gameObject);
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -26,14 +27,19 @@ public class PlatformerController : MonoBehaviour
             Jump();
     }
     
-    private void OnJump(InputValue value)
+    private void OnInteract(InputValue value)
     {
-        m_isJumping = value.Get<float>() > 0;
+        m_isJumping = value.isPressed;
     }
 
     private void Jump()
     {
         m_isGrounded = false;
         m_rigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+    }
+
+    public void HitObstacle()
+    {
+        Debug.Log("HitObstacle");
     }
 }
