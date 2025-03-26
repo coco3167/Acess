@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\PlatformerObstacle.cs" />
     <Compile Include="Assets\Scripts\PlatformerBackground.cs" />
     <Compile Include="Assets\Scripts\PlatformerController.cs" />
     <Compile Include="Assets\Scripts\FMODEventsLoader.cs" />

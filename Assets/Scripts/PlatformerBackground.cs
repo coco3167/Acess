@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlatformerBackground : MonoBehaviour
 {
     [SerializeField] private RectTransform background1, background2;
+    [SerializeField] private Transform obstaclesTransform;
     [SerializeField] private float scrollSpeed;
     
     private float m_imageWidth;
@@ -20,13 +21,20 @@ public class PlatformerBackground : MonoBehaviour
         
         UpdateBackground(background1, scrollValue);
         UpdateBackground(background2, scrollValue);
+        
+        UpdateObstacles(scrollValue);
     }
 
     private void UpdateBackground(RectTransform background, float scrollValue)
     {
-        background.position -= scrollValue * Vector3.right;
+        background.position += scrollValue * Vector3.left;
         
         if (background.position.x <= -m_imageWidth) 
             background.Translate(2*m_imageWidth, 0, 0);
+    }
+    
+    private void UpdateObstacles(float scrollValue)
+    {
+        obstaclesTransform.position += scrollValue * Vector3.left;
     }
 }

@@ -36,4 +36,9 @@ public class PlatformerController : MonoBehaviour
         m_isGrounded = false;
         m_rigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
     }
+
+    public void HitObstacle()
+    {
+        Debug.Log("HitObstacle");
+    }
 }
