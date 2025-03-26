@@ -5,6 +5,8 @@ public class FMODEvent_Loader : MonoBehaviour
 {
     [field: SerializeField] public EventReference dinoJump { get; private set; }
     [field: SerializeField] public EventReference dinoRun { get; private set; }
+    [field: SerializeField] public EventReference obstacle { get; private set; }
+
 
 
 
