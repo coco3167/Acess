@@ -6,15 +6,18 @@ public class RondManager : MonoBehaviour
 {
     public Rond[] rondColl;
     public int ID;
+    public bool win;
 
 
     // Update is called once per frame
     void Update()
     {
-        int currentPos = 0;
+        int index = 0;
+        int validCount = 0;
+
         foreach(Rond rond in rondColl)
         {
-            if(currentPos == ID)
+            if(index == ID)
             {
                 rond.selected = true;
             }
@@ -22,17 +25,25 @@ public class RondManager : MonoBehaviour
             {
                 rond.selected = false;
             }
-            currentPos += 1;
+            index += 1;
+
+            if (rond.validRotation)
+            {
+                validCount += 1;
+            }
         }
 
-        // if (Input.GetMouseButtonDown(1)) // 0 = Left Click
-        // {
-        //     ID += 1;
-        //     if(ID > rondColl.Length - 1)
-        //     {
-        //         ID = 0;
-        //     }
-        // }
+        if (validCount >= rondColl.Length)
+        {
+            win = true;
+        }
+        else
+        {
+            win = false;
+        }
+        
+
+
 
     }
 
