@@ -286,6 +286,90 @@ MonoBehaviour:
       Data3: 2105089955
       Data4: 911471281
     Path: event:/PhaseOne/Obstacle
+  <cogMove>k__BackingField:
+    Guid:
+      Data1: -1855016642
+      Data2: 1289210907
+      Data3: 660031646
+      Data4: -478728659
+    Path: event:/PhaseTwo/CogMove
+  <cogSelect>k__BackingField:
+    Guid:
+      Data1: -1256747765
+      Data2: 1258126754
+      Data3: 1054429844
+      Data4: -2094018196
+    Path: event:/PhaseTwo/CogSelect
+  <cogSuccess>k__BackingField:
+    Guid:
+      Data1: 796789914
+      Data2: 1203252902
+      Data3: 1266726044
+      Data4: 1178640637
+    Path: event:/PhaseTwo/CogSuccess
+  <dinoRunAstral>k__BackingField:
+    Guid:
+      Data1: 783937191
+      Data2: 1141082794
+      Data3: -1585801288
+      Data4: -84024423
+    Path: event:/PhaseTwo/DinoRunAstral
+  <puzzleSuccess>k__BackingField:
+    Guid:
+      Data1: 796789914
+      Data2: 1203252902
+      Data3: 1266726044
+      Data4: 1178640637
+    Path: event:/PhaseTwo/CogSuccess
+  <dinoPicore>k__BackingField:
+    Guid:
+      Data1: 522727499
+      Data2: 1268815730
+      Data3: 581790867
+      Data4: 1023088423
+    Path: event:/PhaseTwo/DinoPicore
+  <flySingle>k__BackingField:
+    Guid:
+      Data1: 1224761853
+      Data2: 1165996077
+      Data3: 1667248808
+      Data4: -1956616598
+    Path: event:/PhaseThree/FlySingle
+  <flyLoop>k__BackingField:
+    Guid:
+      Data1: -1017171164
+      Data2: 1201740065
+      Data3: -685227378
+      Data4: 1974484699
+    Path: event:/PhaseThree/FlyLoop
+  <uiNext>k__BackingField:
+    Guid:
+      Data1: 2140931178
+      Data2: 1139258040
+      Data3: 670053551
+      Data4: -2103025994
+    Path: event:/PhaseThree/UiNext
+  <uiMove>k__BackingField:
+    Guid:
+      Data1: -1783143022
+      Data2: 1316740389
+      Data3: -2134905684
+      Data4: -2017596293
+    Path: event:/General/UiMove
+  <uiBack>k__BackingField:
+    Guid:
+      Data1: 1434022409
+      Data2: 1274486141
+      Data3: 1604506812
+      Data4: -76510625
+    Path: event:/General/UiBack
+  <uiConfirm>k__BackingField:
+    Guid:
+      Data1: 1468463977
+      Data2: 1317766236
+      Data3: -1994609791
+      Data4: 937327451
+    Path: event:/General/UiConfirm
 --- !u!1 &1484349074
 GameObject:
   m_ObjectHideFlags: 0
