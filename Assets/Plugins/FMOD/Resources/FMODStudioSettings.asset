@@ -487,7 +487,11 @@ MonoBehaviour:
   Plugins: []
   MasterBanks:
   - Master
-  Banks: []
+  Banks:
+  - General
+  - PhaseOne
+  - PhaseThree
+  - PhaseTwo
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
