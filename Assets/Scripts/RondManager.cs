@@ -1,12 +1,12 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 
 public class RondManager : MonoBehaviour
 {
     public Rond[] rondColl;
     public int ID;
-    public bool win;
 
 
     // Update is called once per frame
@@ -34,17 +34,7 @@ public class RondManager : MonoBehaviour
         }
 
         if (validCount >= rondColl.Length)
-        {
-            win = true;
-        }
-        else
-        {
-            win = false;
-        }
-        
-
-
-
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     private void OnSwitch(InputValue inputValue)

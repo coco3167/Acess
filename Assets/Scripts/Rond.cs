@@ -41,17 +41,7 @@ public class Rond : MonoBehaviour
         }
 
         //Check if valid
-
-        
-        if (transform.rotation.eulerAngles.z == 180 || transform.rotation.eulerAngles.z == 360 || transform.rotation.eulerAngles.z == 0) 
-        {
-            validRotation = true;
-            
-        }
-        else
-        {
-            validRotation = false;
-        }
+        validRotation = transform.rotation.eulerAngles.z%180 == 0;
     }
 
     public void Rotate()
@@ -59,7 +49,7 @@ public class Rond : MonoBehaviour
         foreach(Rond rond in influencedRond)
         {
             rond.targetRot += 45;
-            rond.targetRot = rond.targetRot%360;
+            rond.targetRot %= 360;
         }
     }
 }
