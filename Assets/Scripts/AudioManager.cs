@@ -36,6 +36,8 @@ public class Audio_Manager : MonoBehaviour
                 case Scene.Scene3:
                     LoadBank("PhaseThree");
                     UnloadAllBanksExcept("General");
+                    InstantiateChickenFly(FMODEvent_Loader.instance.flyLoop);
+
                     break;
                 case Scene.End:
                     UnloadAllBanksExcept("General");
@@ -46,6 +48,8 @@ public class Audio_Manager : MonoBehaviour
     public static Audio_Manager instance { get; private set; }
 
     public EventInstance dinoRun;
+    public EventInstance chickenFly;
+
 
     private void Awake()
     {
@@ -114,6 +118,23 @@ public class Audio_Manager : MonoBehaviour
         if (dinoRun.isValid())
         {
             dinoRun.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            //dinoRun.release();
+        }
+    }
+    public void InstantiateChickenFly(EventReference sound)
+    {
+        dinoRun = RuntimeManager.CreateInstance(sound);
+    }
+    public void PlayChickenFly()
+    {
+        dinoRun.start();
+    }
+
+    public void StopChickenFly()
+    {
+        if (chickenFly.isValid())
+        {
+            chickenFly.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
             //dinoRun.release();
         }
     }
