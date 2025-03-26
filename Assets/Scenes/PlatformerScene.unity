@@ -370,6 +370,13 @@ MonoBehaviour:
       Data3: -1994609791
       Data4: 937327451
     Path: event:/General/UiConfirm
+  <music>k__BackingField:
+    Guid:
+      Data1: 1528652527
+      Data2: 1075534608
+      Data3: 1997293465
+      Data4: 1521097991
+    Path: event:/General/Music
 --- !u!1 &1484349074
 GameObject:
   m_ObjectHideFlags: 0

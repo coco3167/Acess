@@ -49,6 +49,7 @@ public class Audio_Manager : MonoBehaviour
 
     public EventInstance dinoRun;
     public EventInstance chickenFly;
+    public EventInstance musicInstance;
 
 
     private void Awake()
@@ -138,12 +139,17 @@ public class Audio_Manager : MonoBehaviour
             //dinoRun.release();
         }
     }
+    public void InstantiateMusic(EventReference music)
+    {
+        musicInstance = RuntimeManager.CreateInstance(music);
+        musicInstance.start();
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         CurrentScene = Scene.Scene1;
-
+        InstantiateMusic(FMODEvent_Loader.instance.music);
     }
 
     // Update is called once per frame
