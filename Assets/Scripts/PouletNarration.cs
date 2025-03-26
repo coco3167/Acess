@@ -1,0 +1,57 @@
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+public class PouletNarration : MonoBehaviour
+{
+    [SerializeField, TextArea] private List<string> dialogs;
+    [SerializeField] private TextMeshProUGUI text;
+    [SerializeField] private GameObject background;
+    
+    private Animator m_animator;
+    private int m_index;
+    private bool m_canInteract;
+
+    private void Start()
+    {
+        m_animator = GetComponent<Animator>();
+        m_index = 0;
+        m_canInteract = false;
+        text.text = dialogs[m_index];
+    }
+
+    private void OnInteract(InputValue value)
+    {
+        if (value.isPressed && m_canInteract)
+        {
+            if(m_index >= dialogs.Count -1)
+                return;
+            
+            FlyPoulet();
+        }
+    }
+
+    private void FlyPoulet()
+    {
+        m_canInteract = false;
+        m_animator.SetTrigger("Fly");
+    }
+
+    private void UpdateDialog()
+    {
+        m_index++;
+        background.SetActive(true);
+        text.text = dialogs[m_index];
+    }
+
+    private void HideDialog()
+    {
+        background.SetActive(false);
+    }
+
+    private void EnableInteract()
+    {
+        m_canInteract = true;
+    }
+}
