@@ -20,7 +20,7 @@ public class PlatformerController : MonoBehaviour
         if (other.gameObject.CompareTag("Ground"))
         {
             m_isGrounded = true;
-            Audio_Manager.instance.InstantiateDinoRun(FMODEvent_Loader.instance.dinoRun);
+            Audio_Manager.instance.PlayDinoRun();
         }
     }
 

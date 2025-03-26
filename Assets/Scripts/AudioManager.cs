@@ -2,6 +2,7 @@ using UnityEngine;
 using FMODUnity;
 using FMOD.Studio;
 using System.Collections.Generic;
+using UnityEngine.Rendering;
 
 public class Audio_Manager : MonoBehaviour
 {
@@ -101,20 +102,26 @@ public class Audio_Manager : MonoBehaviour
     public void InstantiateDinoRun(EventReference sound)
     {
         dinoRun = RuntimeManager.CreateInstance(sound);
+        //dinoRun.start();
+    }
+    public void PlayDinoRun()
+    {
         dinoRun.start();
     }
+
     public void StopDinoRun()
     {
         if (dinoRun.isValid())
         {
             dinoRun.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
-            dinoRun.release();
+            //dinoRun.release();
         }
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        CurrentScene = Scene.Scene1;
 
     }
 
