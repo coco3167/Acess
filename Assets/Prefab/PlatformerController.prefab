@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: -6888824094680344010}
   - component: {fileID: 6003935393496153864}
   - component: {fileID: 7070190621298165714}
-  - component: {fileID: 7037381103842026203}
   - component: {fileID: 6031147210218879340}
+  - component: {fileID: 7037381103842026203}
   m_Layer: 0
   m_Name: PlatformerController
   m_TagString: Player
@@ -137,7 +137,7 @@ Rigidbody2D:
   m_Mass: 0.2
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0.9
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -195,19 +195,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.364189, y: 3.719008}
   m_EdgeRadius: 0
---- !u!114 &7037381103842026203
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4693456569237811606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 587d6c239e2199d468f1757cf7849138, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpForce: 1
 --- !u!95 &6031147210218879340
 Animator:
   serializedVersion: 7
@@ -230,3 +217,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7037381103842026203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4693456569237811606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 587d6c239e2199d468f1757cf7849138, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: 2
