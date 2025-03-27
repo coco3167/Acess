@@ -9,6 +9,7 @@ namespace Inputs
     {
         [SerializeField] private Button button;
         [SerializeField] private TextMeshProUGUI buttonText, descriptionText;
+        [SerializeField] private RawImage image;
         
         private InputAction m_action;
 
@@ -18,14 +19,20 @@ namespace Inputs
             descriptionText.text = inputAction.name;
             button.onClick.RemoveAllListeners();
             button.onClick.AddListener(delegate {RemapButton(inputAction);});
+            image.enabled = false;
+            
             inputAction.Enable();
+
+            Debug.Log("Init");
         }
         
         private void RemapButton(InputAction action)
         {
             action.Disable();
             m_action = action;
-
+                
+            image.enabled = true;
+            
             InputActionRebindingExtensions.RebindingOperation rebindOperation =
                 new InputActionRebindingExtensions.RebindingOperation()
                     .OnMatchWaitForAnother(0.1f)

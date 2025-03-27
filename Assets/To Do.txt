@@ -11,6 +11,7 @@ Paul
 
 
 Corentin
-- Numéros fader menu
-- Feedback couleurs bouton Remapping
+- Numéros fader menu (osef)
+- Feedback couleurs bouton Remapping FAIT
 - Intégrer Anims dino Phase 2
+- Garder les inputs visible durant les phases de jeu
