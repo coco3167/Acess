@@ -48,6 +48,7 @@ namespace Platformer
         public void HitObstacle()
         {
             Audio_Manager.instance.PlayOneShot(FMODEvent_Loader.instance.obstacle, transform.position);
+            Audio_Manager.instance.FinishDinoRun();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
