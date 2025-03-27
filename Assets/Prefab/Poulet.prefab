@@ -173,20 +173,21 @@ MonoBehaviour:
     shouldFly: 0
   - text: "\u2026"
     shouldFly: 0
-  - text: "C\u2019\xC9TAIT TERRIFIANT AAAAAAAH"
+  - text: "C\u2019\xE9tait terrifiant aaaaah !!!"
     shouldFly: 0
   - text: Je suis un poulet ?
     shouldFly: 1
   - text: "Toutes ces \xE9preuves, tous ces obstacles surmont\xE9s\u2026"
     shouldFly: 0
-  - text: "Cette \xE9nigme insurmontable qui m\u2019a demand\xE9 des ann\xE9es d\u2019\xE9tudes
-      et de r\xE9flexion\u2026"
+  - text: "Cette \xE9nigme insurmontable... "
+    shouldFly: 0
+  - text: "...qui m\u2019a demand\xE9 des ann\xE9es d\u2019\xE9tudes et de r\xE9flexion\u2026"
     shouldFly: 0
   - text: "Est-ce donc l\xE0 la seule r\xE9compense qui m\u2019est accord\xE9e ?"
     shouldFly: 0
   - text: Devenir un plumeau dodu et faible ?
     shouldFly: 0
-  - text: IMPOSSIBLE !
+  - text: Impossible !
     shouldFly: 0
   - text: "Je refuse ! Il doit y avoir une erreur, une solution\u2026\r"
     shouldFly: 1
@@ -252,13 +253,13 @@ MonoBehaviour:
     shouldFly: 0
   - text: Je dois continuer !
     shouldFly: 1
-  - text: ENCORE !
+  - text: Encore !
     shouldFly: 1
-  - text: RAAAAAH !!!
+  - text: Raaaaah !!!
     shouldFly: 1
-  - text: "JE CAPTE LE TRUC C\u2019EST BON !"
+  - text: Je capte le truc c'est bon !
     shouldFly: 1
-  - text: "(le jeu est fini merci d'avoir jou\xE9 !)"
+  - text: "(le jeu est fini merci d'avoir jou\xE9)"
     shouldFly: 0
   text: {fileID: 0}
   background: {fileID: 0}

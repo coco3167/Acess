@@ -1,0 +1,17 @@
+
+Paul
+- Couleur subtitle/captionning
+- close captionning localisé ?
+-  Pas de majuscule  FAIT
+- Couper en 2 subtitles
+- Historique des sous-titres 
+- Feedbkac de quel rond est concerné FAIT
+
+- Change fond plateformer FAIT + truc vert
+
+
+
+Corentin
+- Numéros fader menu
+- Feedback couleurs bouton Remapping
+- Intégrer Anims dino Phase 2
