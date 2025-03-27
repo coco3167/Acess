@@ -135,7 +135,7 @@ public class Audio_Manager : MonoBehaviour
     }
     public void PlayChickenFly()
     {
-        dinoRun.start();
+        chickenFly.start();
     }
 
     public void StopChickenFly()
