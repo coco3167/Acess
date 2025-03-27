@@ -18,3 +18,7 @@ Corentin
 - Option windowed
 - Options vertical scroll
 - Option assombrir fond phase 1 FAIT
+
+DEBUG
+- UI options devant
+- Rond énigme absent
