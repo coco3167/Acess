@@ -1,17 +1,18 @@
-
 Paul
 - Couleur subtitle/captionning
-- close captionning localisé ?
--  Pas de majuscule  
-- Couper en 2 subtitles
-- Historique des sous-titres 
-- Feedbkac de quel rond est concerné
+- close captionning localisé ? JE PENSE HORS SCOPE MAIS A DISCUTER
+-  Pas de majuscule  FAIT
+- Couper en 2 subtitles FAIT
+- Historique des sous-titres HORS SCOPE IMO
+- Feedbkac de quel rond est concerné FAIT
 
-- Change fond plateformer + truc vert
+- Change fond plateformer FAIT + truc vert FAIT
 
 
 
 Corentin
-- Numéros fader menu
-- Feedback couleurs bouton Remapping
+- Numéros fader menu (osef)
+- Feedback couleurs bouton Remapping FAIT
 - Intégrer Anims dino Phase 2
+- Garder les inputs visible durant les phases de jeu
+- Option assombrir fond phase 1

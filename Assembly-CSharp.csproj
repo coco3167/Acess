@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PouletNarration.cs" />
+    <Compile Include="Assets\Scripts\Close Captioning.cs" />
     <Compile Include="Assets\Scripts\Rond.cs" />
     <Compile Include="Assets\Scripts\Options.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
@@ -94,6 +95,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\To Do.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\To Do.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />

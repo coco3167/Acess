@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -11,6 +10,8 @@ public class Rond : MonoBehaviour
     private Vector3 startScale;
     private bool m_isRotating;
     public bool validRotation;
+    public CloseCaptioning captionScript;
+    public GameObject arrow;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -43,6 +44,24 @@ public class Rond : MonoBehaviour
 
         //Check if valid
         validRotation = transform.rotation.eulerAngles.z%180 == 0;
+
+        //Arrow
+
+        arrow.SetActive(false);
+        
+    }
+
+    void LateUpdate()
+    {
+        if (selected)
+        {
+            foreach(Rond rond in influencedRond)
+            {
+                rond.arrow.SetActive(true);
+            }
+        }
+        arrow.transform.position = transform.position - new Vector3(0,3,0);
+        arrow.transform.rotation = Quaternion.Euler(0, 0, 0);
     }
 
     public void Rotate()
@@ -51,12 +70,16 @@ public class Rond : MonoBehaviour
         Audio_Manager.instance.PlayOneShot(FMODEvent_Loader.instance.dinoRunAstral, transform.position);
 
         foreach (Rond rond in influencedRond)
+        captionScript.setCaption(captionScript.rotateCaption);
+        
+        foreach(Rond rond in influencedRond)
         {
             rond.targetRot += 45;
             rond.targetRot %= 360;
         }
         if (transform.rotation.eulerAngles.z % 180 == 0)
         {
+            captionScript.setCaption(captionScript.validCaption);
             Audio_Manager.instance.PlayOneShot(FMODEvent_Loader.instance.cogSuccess, transform.position);
         }
 
