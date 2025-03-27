@@ -12,6 +12,7 @@ public class PouletNarration : MonoBehaviour
     
     private Animator m_animator;
     private int m_index;
+    private int m_intensityIndex;
     private bool m_canInteract;
 
     private void Start()
@@ -30,11 +31,13 @@ public class PouletNarration : MonoBehaviour
                 Application.Quit();
             
             m_index++;
+            UpdateIntensity();
             
             if(dialogs[m_index].shouldFly)
                 FlyPoulet();
             else
                 UpdateDialog();
+                
         }
     }
 
@@ -48,6 +51,18 @@ public class PouletNarration : MonoBehaviour
     {
         background.SetActive(true);
         text.text = dialogs[m_index].text;
+    }
+
+    private void UpdateIntensity()
+    {
+        m_intensityIndex = 1;
+        if (m_index > 16)
+            m_intensityIndex = 2;
+        
+        if (m_index > 41)
+            m_intensityIndex = 3;
+        
+        Debug.Log(m_index);
     }
 
     private void HideDialog()
