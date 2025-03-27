@@ -1,13 +1,13 @@
 
 Paul
 - Couleur subtitle/captionning
-- close captionning localisé ?
+- close captionning localisé ? JE PENSE HORS SCOPE MAIS A DISCUTER
 -  Pas de majuscule  FAIT
-- Couper en 2 subtitles
-- Historique des sous-titres 
+- Couper en 2 subtitles FAIT
+- Historique des sous-titres HORS SCOPE IMO
 - Feedbkac de quel rond est concerné FAIT
 
-- Change fond plateformer FAIT + truc vert
+- Change fond plateformer FAIT + truc vert FAIT
 
 
 
