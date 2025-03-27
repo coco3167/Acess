@@ -8,6 +8,7 @@ namespace Platformer
     public class PlatformerController : MonoBehaviour
     {
         [SerializeField] private float jumpForce;
+        [SerializeField] private GameObject ccText;
     
         private Rigidbody2D m_rigidbody;
         private bool m_isGrounded, m_isJumping;
@@ -38,6 +39,7 @@ namespace Platformer
             m_isGrounded = false;
             
             Audio_Manager.instance.StopDinoRun();
+            ccText.SetActive(false);
             Audio_Manager.instance.PlayOneShot(FMODEvent_Loader.instance.dinoJump, transform.position);
 
             m_rigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
@@ -53,6 +55,7 @@ namespace Platformer
         {
             Audio_Manager.instance.PlayDinoRun();
             m_isGrounded = true;
+            ccText.SetActive(true);
         }
     }
 }
