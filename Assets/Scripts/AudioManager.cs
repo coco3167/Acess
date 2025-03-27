@@ -126,7 +126,14 @@ public class Audio_Manager : MonoBehaviour
         if (dinoRun.isValid())
         {
             dinoRun.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
-            //dinoRun.release();
+        }
+    }
+    public void FinishDinoRun()
+    {
+        if (dinoRun.isValid())
+        {
+            dinoRun.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            dinoRun.release();
         }
     }
     public void InstantiateChickenFly(EventReference sound)
