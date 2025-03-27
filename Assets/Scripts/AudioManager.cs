@@ -50,6 +50,7 @@ public class Audio_Manager : MonoBehaviour
     public EventInstance dinoRun;
     public EventInstance chickenFly;
     public EventInstance musicInstance;
+    public EventInstance monoInstance;
 
 
     private void Awake()
@@ -144,7 +145,53 @@ public class Audio_Manager : MonoBehaviour
         musicInstance = RuntimeManager.CreateInstance(music);
         musicInstance.start();
     }
+    public void SetMusicParameter(string parameter, int value)
+    {
+        musicInstance.setParameterByName(parameter, value);
+    }
+    public void MakeMono()
+    {
+        Debug.Log("Switching to Mono");
+        SetMonoParameter("Mono", 1);
+    }
+    public void MakeStereo()
+    {
+        Debug.Log("Switching to Stereo");
+        SetMonoParameter("Mono", 0);
+    }
 
+    public void InstantiateMono(EventReference mono)
+    {
+        monoInstance = RuntimeManager.CreateInstance(mono);
+        monoInstance.start();
+    }
+
+    public void SetMonoParameter(string parameter, int state)
+    {
+        if (monoInstance.isValid())
+        {
+            monoInstance.setParameterByName(parameter, state);
+        }
+        else
+        {
+            InstantiateMono(FMODEvent_Loader.instance.mono);
+            monoInstance.setParameterByName(parameter, state);
+        }
+    }
+
+    public void ToggleMonoStereo()
+    {
+        float value = 0;
+        monoInstance.getParameterByName("Mono", out value);
+        if (value == 0)
+        {
+            MakeMono();
+        }
+        else
+        {
+            MakeStereo();
+        }
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -152,10 +199,7 @@ public class Audio_Manager : MonoBehaviour
         InstantiateMusic(FMODEvent_Loader.instance.music);
     }
 
-    public void SetMusicParameter(string parameter, int value)
-    {
-        musicInstance.setParameterByName(parameter, value);
-    }
+    
 
     // Update is called once per frame
     void Update()

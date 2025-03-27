@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\Inputs\InputRebinder.cs" />
     <Compile Include="Assets\Scripts\Platformer\PlatformerObstacle.cs" />
     <Compile Include="Assets\Scripts\Inputs\InputButton.cs" />
+    <Compile Include="Assets\Scripts\VCAController.cs" />
     <Compile Include="Assets\Scripts\Platformer\PlatformerBackground.cs" />
     <Compile Include="Assets\Scripts\FMODEventsLoader.cs" />
     <Compile Include="Assets\Scripts\Platformer\PlatformerController.cs" />
