@@ -10,7 +10,7 @@ public class Background2 : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        mat.SetFloat("_dissolve", 0f);
     }
 
     // Update is called once per frame
