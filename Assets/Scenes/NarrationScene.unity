@@ -635,8 +635,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogs:
-  - Bonjour c'est le poulet
-  - C'est toujours le poulet
+  - text: Je suis poulet
+    shouldFly: 0
+  - text: La je vole
+    shouldFly: 1
+  - text: La je vole pas
+    shouldFly: 0
   text: {fileID: 2064717428}
   background: {fileID: 911542409}
 --- !u!114 &1779634408

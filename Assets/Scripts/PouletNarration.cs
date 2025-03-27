@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -5,7 +6,7 @@ using UnityEngine.InputSystem;
 
 public class PouletNarration : MonoBehaviour
 {
-    [SerializeField, TextArea] private List<string> dialogs;
+    [SerializeField] private List<Dialog> dialogs;
     [SerializeField] private TextMeshProUGUI text;
     [SerializeField] private GameObject background;
     
@@ -18,7 +19,7 @@ public class PouletNarration : MonoBehaviour
         m_animator = GetComponent<Animator>();
         m_index = 0;
         m_canInteract = false;
-        text.text = dialogs[m_index];
+        text.text = dialogs[m_index].text;
     }
 
     private void OnInteract(InputValue value)
@@ -26,9 +27,14 @@ public class PouletNarration : MonoBehaviour
         if (value.isPressed && m_canInteract)
         {
             if(m_index >= dialogs.Count -1)
-                return;
+                Application.Quit();
             
-            FlyPoulet();
+            m_index++;
+            
+            if(dialogs[m_index].shouldFly)
+                FlyPoulet();
+            else
+                UpdateDialog();
         }
     }
 
@@ -40,9 +46,8 @@ public class PouletNarration : MonoBehaviour
 
     private void UpdateDialog()
     {
-        m_index++;
         background.SetActive(true);
-        text.text = dialogs[m_index];
+        text.text = dialogs[m_index].text;
     }
 
     private void HideDialog()
@@ -53,5 +58,12 @@ public class PouletNarration : MonoBehaviour
     private void EnableInteract()
     {
         m_canInteract = true;
+    }
+    
+    [Serializable]
+    private struct Dialog
+    {
+        [SerializeField, TextArea] public string text;
+        [SerializeField] public bool shouldFly;
     }
 }

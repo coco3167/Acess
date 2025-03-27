@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ProtoEnigmeScene.unity
     guid: 36feafdc36d3d8e4ba800afacbedfcd7
+  - enabled: 1
+    path: Assets/Scenes/NarrationScene.unity
+    guid: 0109dc59001cdbe458815c9edd690b92
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
