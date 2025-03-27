@@ -3,13 +3,16 @@ using UnityEngine.SceneManagement;
 
 public class Options : MonoBehaviour
 {
+    public static Options Instance;
     [SerializeField] private GameObject optionsUI;
     [SerializeField] private GameObject openOptions;
     
     [HideInInspector] public float gameSpeed = 1;
+    [HideInInspector] public bool highContrast = false;
     
     private void Awake()
     {
+        Instance = this;
         DontDestroyOnLoad(this);
         OpenOptions();
     }
@@ -34,5 +37,10 @@ public class Options : MonoBehaviour
         optionsUI.SetActive(true);
         openOptions.SetActive(false);
         Time.timeScale = 0;
+    }
+
+    public void HighContrast(bool value)
+    {
+        highContrast = value;
     }
 }
