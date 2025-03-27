@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -46,10 +47,18 @@ public class Rond : MonoBehaviour
 
     public void Rotate()
     {
-        foreach(Rond rond in influencedRond)
+        Audio_Manager.instance.PlayOneShot(FMODEvent_Loader.instance.cogMove, transform.position);
+        Audio_Manager.instance.PlayOneShot(FMODEvent_Loader.instance.dinoRunAstral, transform.position);
+
+        foreach (Rond rond in influencedRond)
         {
             rond.targetRot += 45;
             rond.targetRot %= 360;
         }
+        if (transform.rotation.eulerAngles.z % 180 == 0)
+        {
+            Audio_Manager.instance.PlayOneShot(FMODEvent_Loader.instance.cogSuccess, transform.position);
+        }
+
     }
 }

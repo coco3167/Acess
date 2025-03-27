@@ -30,9 +30,10 @@ public class PouletNarration : MonoBehaviour
                 Application.Quit();
             
             m_index++;
-            
-            if(dialogs[m_index].shouldFly)
+
+            if (dialogs[m_index].shouldFly)
                 FlyPoulet();
+                
             else
                 UpdateDialog();
         }
@@ -42,12 +43,14 @@ public class PouletNarration : MonoBehaviour
     {
         m_canInteract = false;
         m_animator.SetTrigger("Fly");
+        Audio_Manager.instance.PlayOneShot(FMODEvent_Loader.instance.flySingle, transform.position);
     }
 
     private void UpdateDialog()
     {
         background.SetActive(true);
         text.text = dialogs[m_index].text;
+        Audio_Manager.instance.PlayOneShot(FMODEvent_Loader.instance.uiNext, transform.position);
     }
 
     private void HideDialog()

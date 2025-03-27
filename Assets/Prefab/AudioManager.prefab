@@ -88,10 +88,10 @@ MonoBehaviour:
     Path: event:/PhaseTwo/CogSuccess
   <dinoRunAstral>k__BackingField:
     Guid:
-      Data1: 783937191
-      Data2: 1141082794
-      Data3: -1585801288
-      Data4: -84024423
+      Data1: 1956734825
+      Data2: 1307487750
+      Data3: 413907350
+      Data4: 1172888963
     Path: event:/PhaseTwo/DinoRunAstral
   <puzzleSuccess>k__BackingField:
     Guid:
@@ -156,6 +156,13 @@ MonoBehaviour:
       Data3: 1997293465
       Data4: 1521097991
     Path: event:/General/Music
+  <mono>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &6674598184563763135
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
@@ -34,8 +35,12 @@ public class RondManager : MonoBehaviour
         }
 
         if (validCount >= rondColl.Length)
+        {
+            Audio_Manager.instance.PlayOneShot(FMODEvent_Loader.instance.puzzleSuccess, transform.position);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
+
 
     private void OnSwitch(InputValue inputValue)
     {

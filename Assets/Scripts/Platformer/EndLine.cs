@@ -9,6 +9,7 @@ namespace Platformer
     {
         private void OnTriggerEnter2D(Collider2D other)
         {
+            Audio_Manager.instance.StopDinoRun();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }

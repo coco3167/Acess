@@ -4,6 +4,7 @@ using FMOD.Studio;
 using System.Collections.Generic;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Audio_Manager : MonoBehaviour
 {
@@ -11,9 +12,9 @@ public class Audio_Manager : MonoBehaviour
 
     public enum Scene
     {
-        Scene1 = 1,
-        Scene2 = 2,
-        Scene3 = 3,
+        PlatformerScene = 1,
+        ProtoEnigmeScene = 2,
+        NarrationScene = 3,
         End = 4
     }
     private Scene currentScene;
@@ -25,20 +26,24 @@ public class Audio_Manager : MonoBehaviour
             currentScene = value;
             switch (currentScene)
             {
-                case Scene.Scene1:
+                case Scene.PlatformerScene:
                     LoadBank("PhaseOne");
                     UnloadAllBanksExcept("General");
                     InstantiateDinoRun(FMODEvent_Loader.instance.dinoRun);
+                    Debug.Log("Loading first bank");
+
                     break;
-                case Scene.Scene2:
+                case Scene.ProtoEnigmeScene:
                     LoadBank("PhaseTwo");
                     UnloadAllBanksExcept("General");
+                    Debug.Log("Loading second bank");
+
                     break;
-                case Scene.Scene3:
+                case Scene.NarrationScene:
                     LoadBank("PhaseThree");
                     UnloadAllBanksExcept("General");
-                    InstantiateChickenFly(FMODEvent_Loader.instance.flyLoop);
-
+                    SetMusicParameter("PhaseThree", 1);
+                    Debug.Log("Set music parameter to 1");
                     break;
                 case Scene.End:
                     UnloadAllBanksExcept("General");
@@ -199,11 +204,18 @@ public class Audio_Manager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        CurrentScene = Scene.Scene1;
+        CurrentScene = Scene.PlatformerScene;
         InstantiateMusic(FMODEvent_Loader.instance.music);
+        SceneManager.activeSceneChanged += OnSceneChange;
     }
 
-    
+    private void OnSceneChange(UnityEngine.SceneManagement.Scene arg0, UnityEngine.SceneManagement.Scene arg1)
+    {
+        CurrentScene = (Scene)SceneManager.GetActiveScene().buildIndex;
+    }
+
+
+
 
     // Update is called once per frame
     void Update()
