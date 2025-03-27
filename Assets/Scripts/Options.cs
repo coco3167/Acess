@@ -43,4 +43,9 @@ public class Options : MonoBehaviour
     {
         highContrast = value;
     }
+
+    public void FullScreen(bool value)
+    {
+        Screen.fullScreen = value;
+    }
 }

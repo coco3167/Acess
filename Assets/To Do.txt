@@ -14,9 +14,9 @@ Corentin
 - Numéros fader menu (osef)
 - Feedback couleurs bouton Remapping FAIT
 - Intégrer Anims dino Phase 2
-- Garder les inputs visible durant les phases de jeu
-- Option windowed
-- Options vertical scroll
+- Garder les inputs visible durant les phases de jeu 
+- Option windowed FAIT
+- Options vertical scroll FAIT
 - Option assombrir fond phase 1 FAIT
 
 DEBUG
