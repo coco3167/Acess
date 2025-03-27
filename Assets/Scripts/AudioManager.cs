@@ -3,6 +3,7 @@ using FMODUnity;
 using FMOD.Studio;
 using System.Collections.Generic;
 using UnityEngine.Rendering;
+using UnityEngine.UI;
 
 public class Audio_Manager : MonoBehaviour
 {
@@ -171,11 +172,13 @@ public class Audio_Manager : MonoBehaviour
         if (monoInstance.isValid())
         {
             monoInstance.setParameterByName(parameter, state);
+            Debug.Log($"Set {parameter} to {state} on valid monoInstance.");
         }
         else
         {
             InstantiateMono(FMODEvent_Loader.instance.mono);
             monoInstance.setParameterByName(parameter, state);
+            Debug.Log($"Instantiated monoInstance and set {parameter} to {state}.");
         }
     }
 
@@ -183,6 +186,7 @@ public class Audio_Manager : MonoBehaviour
     {
         float value = 0;
         monoInstance.getParameterByName("Mono", out value);
+        Debug.Log($"Current Mono value: {value}");
         if (value == 0)
         {
             MakeMono();
