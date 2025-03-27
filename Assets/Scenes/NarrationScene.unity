@@ -119,6 +119,71 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &400197873
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3228603776228467384, guid: 7b8d5c1fced17e041bf70298b7cdda7d, type: 3}
+      propertyPath: m_Name
+      value: Background2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847421866191316793, guid: 7b8d5c1fced17e041bf70298b7cdda7d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847421866191316793, guid: 7b8d5c1fced17e041bf70298b7cdda7d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847421866191316793, guid: 7b8d5c1fced17e041bf70298b7cdda7d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847421866191316793, guid: 7b8d5c1fced17e041bf70298b7cdda7d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847421866191316793, guid: 7b8d5c1fced17e041bf70298b7cdda7d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847421866191316793, guid: 7b8d5c1fced17e041bf70298b7cdda7d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847421866191316793, guid: 7b8d5c1fced17e041bf70298b7cdda7d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847421866191316793, guid: 7b8d5c1fced17e041bf70298b7cdda7d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847421866191316793, guid: 7b8d5c1fced17e041bf70298b7cdda7d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847421866191316793, guid: 7b8d5c1fced17e041bf70298b7cdda7d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989056850641375140, guid: 7b8d5c1fced17e041bf70298b7cdda7d, type: 3}
+      propertyPath: active
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8407000119673673438, guid: 7b8d5c1fced17e041bf70298b7cdda7d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b8d5c1fced17e041bf70298b7cdda7d, type: 3}
 --- !u!1 &685207249
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,7 +474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.7058824}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.85490197}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -510,6 +575,93 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1355526419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1355526421}
+  - component: {fileID: 1355526420}
+  m_Layer: 0
+  m_Name: OldBackground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1355526420
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355526419}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bbefe0c254ab9d34fbbd7f3471b31c3d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1795282074631900718, guid: 05fd3d7f4a2387f409f1e03e8a4ba7b4, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 19.2, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1355526421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355526419}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.33, y: 2.33, z: 2.33}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1779634403
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,7 +725,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: a10e5f7fb465a5c41ac97d6e0913e683, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -635,11 +787,110 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogs:
-  - text: Je suis poulet
+  - text: "\u2026"
     shouldFly: 0
-  - text: La je vole
+  - text: Que se passe-t-il ?
+    shouldFly: 0
+  - text: Pourquoi suis-je aussi lourd ?
+    shouldFly: 0
+  - text: "Mon champ de vision n\u2019a jamais \xE9t\xE9 aussi \xE9tendu\u2026"
+    shouldFly: 0
+  - text: "Il fait chaud\u2026 Mon corps est couvert de plume ?"
+    shouldFly: 0
+  - text: "Je dois r\xEAver\u2026 Vite partons d\u2019ici !"
+    shouldFly: 0
+  - text: "Qu\u2019est-ce que je viens de faire ?"
     shouldFly: 1
-  - text: La je vole pas
+  - text: "Je veux courir mais mon corps a quitt\xE9 le sol avec gr\xE2ce et d\xE9termination\u2026"
+    shouldFly: 0
+  - text: "\u2026"
+    shouldFly: 0
+  - text: "C\u2019\xC9TAIT TERRIFIANT AAAAAAAH"
+    shouldFly: 0
+  - text: Je suis un poulet ?
+    shouldFly: 1
+  - text: "Toutes ces \xE9preuves, tous ces obstacles surmont\xE9s\u2026"
+    shouldFly: 0
+  - text: "Cette \xE9nigme insurmontable qui m\u2019a demand\xE9 des ann\xE9es d\u2019\xE9tudes
+      et de r\xE9flexion\u2026"
+    shouldFly: 0
+  - text: "Est-ce donc l\xE0 la seule r\xE9compense qui m\u2019est accord\xE9e ?"
+    shouldFly: 0
+  - text: Devenir un plumeau dodu et faible ?
+    shouldFly: 0
+  - text: IMPOSSIBLE !
+    shouldFly: 0
+  - text: "Je refuse ! Il doit y avoir une erreur, une solution\u2026\r"
+    shouldFly: 1
+  - text: "La r\xE9compense doit se trouver un peu plus loin ! Je dois continuer
+      \xE0 chercher !"
+    shouldFly: 0
+  - text: "Comment les astres peuvent m\u2019infliger telle punition ?"
+    shouldFly: 0
+  - text: "Moi qui ait tout fait pour ouvrir mon \xE2me \xE0 des fins plus grands..."
+    shouldFly: 0
+  - text: "Est-ce donc la b\xE9n\xE9diction qui m\u2019a \xE9t\xE9 promise ? Tissu
+      de mensonges !"
+    shouldFly: 0
+  - text: "Je n\u2019y arrive pas\u2026"
+    shouldFly: 1
+  - text: "Je vais finir ma vie ainsi ? Plumeux et \xE9puis\xE9 ?"
+    shouldFly: 0
+  - text: "Qu\u2019ai-je fais pour m\xE9riter telle infamie\u2026"
+    shouldFly: 0
+  - text: "Le monde n\u2019a que faire des poulets, je deviendrais un rebut, une
+      ris\xE9e\u2026"
+    shouldFly: 0
+  - text: "Fl\xFBte"
+    shouldFly: 0
+  - text: "\u2026"
+    shouldFly: 1
+  - text: "\u2026\u2026\u2026\u2026\u2026\u2026"
+    shouldFly: 0
+  - text: Envie de cnamed
+    shouldFly: 0
+  - text: ...
+    shouldFly: 0
+  - text: C'est navrant...
+    shouldFly: 0
+  - text: ...
+    shouldFly: 0
+  - text: "Que veut-on me dire ? Ca n\u2019a aucun sens\u2026"
+    shouldFly: 1
+  - text: "Je ne peux plus courir, ni chasser\u2026"
+    shouldFly: 0
+  - text: "Quel sens pourrais-je tirer de cette pi\xE8tre \xE9volution ?"
+    shouldFly: 0
+  - text: "Est-ce le but de cette mascarade ? Une le\xE7on s\xE9v\xE8re et sans piti\xE9
+      ?"
+    shouldFly: 1
+  - text: "Je n\u2019ai jamais ressenti l\u2019air d\u2019aussi pr\xE8s\u2026"
+    shouldFly: 0
+  - text: "S\u2019approcher du ciel est grisant..."
+    shouldFly: 0
+  - text: "...mais \xE0 quoi bon si la chute n\u2019en est que plus douloureus ?"
+    shouldFly: 0
+  - text: "Soci\xE9t\xE9"
+    shouldFly: 0
+  - text: Tant pis.
+    shouldFly: 1
+  - text: Je comprends maintenant.
+    shouldFly: 0
+  - text: "Chuter n\u2019a pas d\u2019importance."
+    shouldFly: 0
+  - text: "Chaque fracas de mon cr\xE2ne creux contre le sol..."
+    shouldFly: 0
+  - text: "...est en fait une v\xE9ritable temp\xEAte d\u2019apprentissages !"
+    shouldFly: 0
+  - text: Je dois continuer !
+    shouldFly: 1
+  - text: ENCORE !
+    shouldFly: 1
+  - text: RAAAAAH !!!
+    shouldFly: 1
+  - text: "JE CAPTE LE TRUC C\u2019EST BON !"
+    shouldFly: 1
+  - text: "(le jeu est fini merci d'avoir jou\xE9 !)"
     shouldFly: 0
   text: {fileID: 2064717428}
   background: {fileID: 911542409}
@@ -819,3 +1070,5 @@ SceneRoots:
   - {fileID: 1779634406}
   - {fileID: 685207253}
   - {fileID: 1071307653}
+  - {fileID: 400197873}
+  - {fileID: 1355526421}
