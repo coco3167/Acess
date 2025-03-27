@@ -57,10 +57,16 @@ public class PouletNarration : MonoBehaviour
     {
         m_intensityIndex = 1;
         if (m_index > 16)
+        {
             m_intensityIndex = 2;
+            Audio_Manager.instance.SetMusicParameter("Intens", 2);
+        }
         
         if (m_index > 41)
+        {
+            Audio_Manager.instance.SetMusicParameter("Intens", 4);
             m_intensityIndex = 3;
+        }
         
         Debug.Log(m_index);
     }
