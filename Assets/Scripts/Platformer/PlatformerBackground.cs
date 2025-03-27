@@ -25,8 +25,8 @@ namespace Platformer
             if (m_highContrast != Options.Instance.highContrast)
             {
                 m_highContrast = Options.Instance.highContrast;
-                background2.GetComponent<SpriteRenderer>().color = m_highContrast ? Color.gray : Color.white;
-                background1.GetComponent<SpriteRenderer>().color = m_highContrast ? Color.gray : Color.white;
+                background2.GetComponent<SpriteRenderer>().color = m_highContrast ? new(.25f,.25f,.25f) : Color.white;
+                background1.GetComponent<SpriteRenderer>().color = m_highContrast ? new(.25f,.25f,.25f) : Color.white;
             }
             
             float scrollValue = Time.deltaTime * scrollSpeed;
