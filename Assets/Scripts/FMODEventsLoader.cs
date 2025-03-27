@@ -25,6 +25,8 @@ public class FMODEvent_Loader : MonoBehaviour
     [field: SerializeField] public EventReference uiMove { get; private set; }
     [field: SerializeField] public EventReference uiBack { get; private set; }
     [field: SerializeField] public EventReference uiConfirm { get; private set; }
+    [field: SerializeField] public EventReference music { get; private set; }
+
 
 
 

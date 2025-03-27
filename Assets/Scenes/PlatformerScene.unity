@@ -601,6 +601,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6535314375776590829, guid: aca79ec6c8e18e646bcdd29ed73764ee, type: 3}
   m_PrefabInstance: {fileID: 190863407}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &475854409
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4942886812225929710, guid: 1928b6effe398bd4b9cf4652dad1dc22, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4942886812225929710, guid: 1928b6effe398bd4b9cf4652dad1dc22, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4942886812225929710, guid: 1928b6effe398bd4b9cf4652dad1dc22, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4942886812225929710, guid: 1928b6effe398bd4b9cf4652dad1dc22, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4942886812225929710, guid: 1928b6effe398bd4b9cf4652dad1dc22, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4942886812225929710, guid: 1928b6effe398bd4b9cf4652dad1dc22, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4942886812225929710, guid: 1928b6effe398bd4b9cf4652dad1dc22, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4942886812225929710, guid: 1928b6effe398bd4b9cf4652dad1dc22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4942886812225929710, guid: 1928b6effe398bd4b9cf4652dad1dc22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4942886812225929710, guid: 1928b6effe398bd4b9cf4652dad1dc22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6674598184563763135, guid: 1928b6effe398bd4b9cf4652dad1dc22, type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1928b6effe398bd4b9cf4652dad1dc22, type: 3}
 --- !u!1001 &489969772
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1130,51 +1187,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6535314375776590829, guid: aca79ec6c8e18e646bcdd29ed73764ee, type: 3}
   m_PrefabInstance: {fileID: 49721772}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &980536896
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 980536898}
-  - component: {fileID: 980536897}
-  m_Layer: 0
-  m_Name: AudioManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &980536897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 980536896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9de0e5fadcd81ac40914c2a2ba73e60f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &980536898
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 980536896}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1390089483}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &985819963 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2309225161982268286, guid: 057600e96247e8f43850907a210c025e, type: 3}
@@ -1419,155 +1431,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aca79ec6c8e18e646bcdd29ed73764ee, type: 3}
---- !u!1 &1390089482
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1390089483}
-  - component: {fileID: 1390089484}
-  m_Layer: 0
-  m_Name: FMODEventsLoader
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1390089483
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1390089482}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 980536898}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1390089484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1390089482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdf17c3f1ba5c8a46838a0b3718dc36f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  <dinoJump>k__BackingField:
-    Guid:
-      Data1: -2043170228
-      Data2: 1324559166
-      Data3: 1797902241
-      Data4: -1457680312
-    Path: event:/PhaseOne/DinoJump
-  <dinoRun>k__BackingField:
-    Guid:
-      Data1: -915349778
-      Data2: 1111312576
-      Data3: 504193692
-      Data4: 1855376623
-    Path: event:/PhaseOne/DinoRun
-  <obstacle>k__BackingField:
-    Guid:
-      Data1: -391415877
-      Data2: 1336909513
-      Data3: 2105089955
-      Data4: 911471281
-    Path: event:/PhaseOne/Obstacle
-  <cogMove>k__BackingField:
-    Guid:
-      Data1: -1855016642
-      Data2: 1289210907
-      Data3: 660031646
-      Data4: -478728659
-    Path: event:/PhaseTwo/CogMove
-  <cogSelect>k__BackingField:
-    Guid:
-      Data1: -1256747765
-      Data2: 1258126754
-      Data3: 1054429844
-      Data4: -2094018196
-    Path: event:/PhaseTwo/CogSelect
-  <cogSuccess>k__BackingField:
-    Guid:
-      Data1: 796789914
-      Data2: 1203252902
-      Data3: 1266726044
-      Data4: 1178640637
-    Path: event:/PhaseTwo/CogSuccess
-  <dinoRunAstral>k__BackingField:
-    Guid:
-      Data1: 783937191
-      Data2: 1141082794
-      Data3: -1585801288
-      Data4: -84024423
-    Path: event:/PhaseTwo/DinoRunAstral
-  <puzzleSuccess>k__BackingField:
-    Guid:
-      Data1: 796789914
-      Data2: 1203252902
-      Data3: 1266726044
-      Data4: 1178640637
-    Path: event:/PhaseTwo/CogSuccess
-  <dinoPicore>k__BackingField:
-    Guid:
-      Data1: 522727499
-      Data2: 1268815730
-      Data3: 581790867
-      Data4: 1023088423
-    Path: event:/PhaseTwo/DinoPicore
-  <flySingle>k__BackingField:
-    Guid:
-      Data1: 1224761853
-      Data2: 1165996077
-      Data3: 1667248808
-      Data4: -1956616598
-    Path: event:/PhaseThree/FlySingle
-  <flyLoop>k__BackingField:
-    Guid:
-      Data1: -1017171164
-      Data2: 1201740065
-      Data3: -685227378
-      Data4: 1974484699
-    Path: event:/PhaseThree/FlyLoop
-  <uiNext>k__BackingField:
-    Guid:
-      Data1: 2140931178
-      Data2: 1139258040
-      Data3: 670053551
-      Data4: -2103025994
-    Path: event:/PhaseThree/UiNext
-  <uiMove>k__BackingField:
-    Guid:
-      Data1: -1783143022
-      Data2: 1316740389
-      Data3: -2134905684
-      Data4: -2017596293
-    Path: event:/General/UiMove
-  <uiBack>k__BackingField:
-    Guid:
-      Data1: 1434022409
-      Data2: 1274486141
-      Data3: 1604506812
-      Data4: -76510625
-    Path: event:/General/UiBack
-  <uiConfirm>k__BackingField:
-    Guid:
-      Data1: 1468463977
-      Data2: 1317766236
-      Data3: -1994609791
-      Data4: 937327451
-    Path: event:/General/UiConfirm
 --- !u!1001 &1407882430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2782,4 +2645,4 @@ SceneRoots:
   - {fileID: 1319352657}
   - {fileID: 1573717468}
   - {fileID: 3755585996660689113}
-  - {fileID: 980536898}
+  - {fileID: 475854409}
