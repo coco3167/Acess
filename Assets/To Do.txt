@@ -15,4 +15,6 @@ Corentin
 - Feedback couleurs bouton Remapping FAIT
 - Intégrer Anims dino Phase 2
 - Garder les inputs visible durant les phases de jeu
-- Option assombrir fond phase 1
+- Option windowed
+- Options vertical scroll
+- Option assombrir fond phase 1 FAIT
