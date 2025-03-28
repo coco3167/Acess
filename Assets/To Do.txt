@@ -15,10 +15,12 @@ Corentin
 - Feedback couleurs bouton Remapping FAIT
 - Intégrer Anims dino Phase 2
 - Garder les inputs visible durant les phases de jeu 
+- Skip phases FAIT
+- God Mode
 - Option windowed FAIT
 - Options vertical scroll FAIT
 - Option assombrir fond phase 1 FAIT
 
 DEBUG
-- UI options devant
-- Rond énigme absent
+- UI options devant FAIT
+- Rond énigme absent FAIT

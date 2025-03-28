@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1df934f7-d102-5675-1f25-1801b1d5c7ee}</ProjectGuid>
+    <ProjectGuid>{f151a706-abf5-4035-e0f8-8da782e42150}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -417,19 +417,19 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Managed\UnityEngine\UnityEditor.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\PackageCache\com.unity.collections@56bff8827a7e\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\PackageCache\com.unity.collections@56bff8827a7e\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\PackageCache\com.unity.ext.nunit@60ef35ffd3cd\net40\unity-custom\nunit.framework.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\PackageCache\com.unity.ext.nunit@60ef35ffd3cd\net40\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>C:\Users\coren\Documents\Acess\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -798,219 +798,219 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Path.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Aseprite.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Multiplayer.Center.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
     </Reference>
     <Reference Include="PPv2URPConverters">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rendering.LightTransport.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Aseprite.Common">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Multiplayer.Center.Common">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Extras">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rendering.LightTransport.Runtime">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="FMODUnityResonance.csproj">
-      <Project>{6283e205-782c-8bd9-0f5c-43c7d480a771}</Project>
+      <Project>{4f2fc517-8735-49c3-9287-eb8a3a7e7f83}</Project>
       <Name>FMODUnityResonance</Name>
     </ProjectReference>
     <ProjectReference Include="FMODUnityEditor.csproj">
-      <Project>{4969c5d2-1618-cde9-aff6-a3e3ac610961}</Project>
+      <Project>{18a88012-6863-cb43-c2ea-9e18f4078253}</Project>
       <Name>FMODUnityEditor</Name>
     </ProjectReference>
     <ProjectReference Include="FMODUnityResonanceEditor.csproj">
-      <Project>{6d467fd1-0c78-3fdb-a4e1-bab2da8deadf}</Project>
+      <Project>{444f3a7a-c24f-bcda-9926-c697d80e13a2}</Project>
       <Name>FMODUnityResonanceEditor</Name>
     </ProjectReference>
     <ProjectReference Include="FMODUnity.csproj">
-      <Project>{a8355457-c4dc-ca63-7ac2-0491a891b1aa}</Project>
+      <Project>{cfe5692a-02f0-6653-2ebe-d6b0a87836e3}</Project>
       <Name>FMODUnity</Name>
     </ProjectReference>
   </ItemGroup>

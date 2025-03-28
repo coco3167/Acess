@@ -36,6 +36,7 @@ public class Audio_Manager : MonoBehaviour
                 case Scene.ProtoEnigmeScene:
                     LoadBank("PhaseTwo");
                     UnloadAllBanksExcept("General");
+                    FinishDinoRun();
                     Debug.Log("Loading second bank");
 
                     break;
@@ -43,10 +44,12 @@ public class Audio_Manager : MonoBehaviour
                     LoadBank("PhaseThree");
                     UnloadAllBanksExcept("General");
                     SetMusicParameter("PhaseThree", 1);
+                    FinishDinoRun();
                     Debug.Log("Set music parameter to 1");
                     break;
                 case Scene.End:
                     UnloadAllBanksExcept("General");
+                    FinishDinoRun();
                     break;
             }
         }
@@ -57,6 +60,8 @@ public class Audio_Manager : MonoBehaviour
     public EventInstance chickenFly;
     public EventInstance musicInstance;
     public EventInstance monoInstance;
+    
+    private bool m_dinoRunning;
 
 
     private void Awake()
@@ -119,12 +124,26 @@ public class Audio_Manager : MonoBehaviour
     public void PlayDinoRun()
     {
         dinoRun.start();
+        m_dinoRunning = true;
     }
 
+    public void PauseDinoRun()
+    {
+        if(dinoRun.isValid() && m_dinoRunning)
+            dinoRun.setPaused(true);
+    }
+
+    public void ResumeDinoRun()
+    {
+        if(dinoRun.isValid() && m_dinoRunning)
+            dinoRun.setPaused(false);
+    }
+    
     public void StopDinoRun()
     {
         if (dinoRun.isValid())
         {
+            m_dinoRunning = false;
             dinoRun.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
         }
     }
@@ -132,7 +151,7 @@ public class Audio_Manager : MonoBehaviour
     {
         if (dinoRun.isValid())
         {
-            dinoRun.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            StopDinoRun();
             dinoRun.release();
         }
     }
@@ -218,6 +237,7 @@ public class Audio_Manager : MonoBehaviour
 
     private void OnSceneChange(UnityEngine.SceneManagement.Scene arg0, UnityEngine.SceneManagement.Scene arg1)
     {
+        FinishDinoRun();
         CurrentScene = (Scene)SceneManager.GetActiveScene().buildIndex;
     }
 

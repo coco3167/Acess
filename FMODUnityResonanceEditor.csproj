@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6d467fd1-0c78-3fdb-a4e1-bab2da8deadf}</ProjectGuid>
+    <ProjectGuid>{444f3a7a-c24f-bcda-9926-c697d80e13a2}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -410,43 +410,43 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\PackageCache\com.unity.collections@56bff8827a7e\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\PackageCache\com.unity.collections@56bff8827a7e\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\PackageCache\com.unity.ext.nunit@60ef35ffd3cd\net40\unity-custom\nunit.framework.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\PackageCache\com.unity.ext.nunit@60ef35ffd3cd\net40\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\unityplastic.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
-      <HintPath>C:\Users\coren\Documents\Acess\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\log4netPlastic.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>C:\Users\coren\Documents\Acess\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -824,25 +824,25 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:\Users\coren\Documents\Acess\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:\Users\ELE60bf3b33cdc75\Documents\Access\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="FMODUnityResonance.csproj">
-      <Project>{6283e205-782c-8bd9-0f5c-43c7d480a771}</Project>
+      <Project>{4f2fc517-8735-49c3-9287-eb8a3a7e7f83}</Project>
       <Name>FMODUnityResonance</Name>
     </ProjectReference>
     <ProjectReference Include="FMODUnity.csproj">
-      <Project>{a8355457-c4dc-ca63-7ac2-0491a891b1aa}</Project>
+      <Project>{cfe5692a-02f0-6653-2ebe-d6b0a87836e3}</Project>
       <Name>FMODUnity</Name>
     </ProjectReference>
   </ItemGroup>
